@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C53D9A162DCAF67E0001561D /* CreatureTypeKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C53D9A0F2DCAF67E0001561D /* CreatureTypeKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C53D99EE2DCAF5F50001561D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C53D99CF2DCAF5F30001561D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C53D99D62DCAF5F30001561D;
+			remoteInfo = CreatureType;
+		};
+		C53D99F82DCAF5F50001561D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C53D99CF2DCAF5F30001561D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C53D99D62DCAF5F30001561D;
+			remoteInfo = CreatureType;
+		};
+		C53D9A142DCAF67E0001561D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C53D99CF2DCAF5F30001561D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C53D9A0E2DCAF67E0001561D;
+			remoteInfo = CreatureTypeKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C53D9A1B2DCAF67E0001561D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C53D9A162DCAF67E0001561D /* CreatureTypeKeyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C53D99D72DCAF5F30001561D /* CreatureType.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreatureType.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53D99ED2DCAF5F50001561D /* CreatureTypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatureTypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53D99F72DCAF5F50001561D /* CreatureTypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatureTypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53D9A0F2DCAF67E0001561D /* CreatureTypeKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CreatureTypeKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C53D99FF2DCAF5F50001561D /* Exceptions for "CreatureType" folder in "CreatureType" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C53D99D62DCAF5F30001561D /* CreatureType */;
+		};
+		C53D9A1A2DCAF67E0001561D /* Exceptions for "CreatureTypeKeyboard" folder in "CreatureTypeKeyboard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C53D9A0E2DCAF67E0001561D /* CreatureTypeKeyboard */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C53D99D92DCAF5F30001561D /* CreatureType */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C53D99FF2DCAF5F50001561D /* Exceptions for "CreatureType" folder in "CreatureType" target */,
+			);
+			path = CreatureType;
+			sourceTree = "<group>";
+		};
+		C53D99F02DCAF5F50001561D /* CreatureTypeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CreatureTypeTests;
+			sourceTree = "<group>";
+		};
+		C53D99FA2DCAF5F50001561D /* CreatureTypeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CreatureTypeUITests;
+			sourceTree = "<group>";
+		};
+		C53D9A102DCAF67E0001561D /* CreatureTypeKeyboard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C53D9A1A2DCAF67E0001561D /* Exceptions for "CreatureTypeKeyboard" folder in "CreatureTypeKeyboard" target */,
+			);
+			path = CreatureTypeKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C53D99D42DCAF5F30001561D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53D99EA2DCAF5F50001561D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53D99F42DCAF5F50001561D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53D9A0C2DCAF67E0001561D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C53D99CE2DCAF5F30001561D = {
+			isa = PBXGroup;
+			children = (
+				C53D99D92DCAF5F30001561D /* CreatureType */,
+				C53D99F02DCAF5F50001561D /* CreatureTypeTests */,
+				C53D99FA2DCAF5F50001561D /* CreatureTypeUITests */,
+				C53D9A102DCAF67E0001561D /* CreatureTypeKeyboard */,
+				C53D99D82DCAF5F30001561D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C53D99D82DCAF5F30001561D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C53D99D72DCAF5F30001561D /* CreatureType.app */,
+				C53D99ED2DCAF5F50001561D /* CreatureTypeTests.xctest */,
+				C53D99F72DCAF5F50001561D /* CreatureTypeUITests.xctest */,
+				C53D9A0F2DCAF67E0001561D /* CreatureTypeKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C53D99D62DCAF5F30001561D /* CreatureType */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53D9A002DCAF5F50001561D /* Build configuration list for PBXNativeTarget "CreatureType" */;
+			buildPhases = (
+				C53D99D32DCAF5F30001561D /* Sources */,
+				C53D99D42DCAF5F30001561D /* Frameworks */,
+				C53D99D52DCAF5F30001561D /* Resources */,
+				C53D9A1B2DCAF67E0001561D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C53D9A152DCAF67E0001561D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C53D99D92DCAF5F30001561D /* CreatureType */,
+			);
+			name = CreatureType;
+			packageProductDependencies = (
+			);
+			productName = CreatureType;
+			productReference = C53D99D72DCAF5F30001561D /* CreatureType.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C53D99EC2DCAF5F50001561D /* CreatureTypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53D9A052DCAF5F50001561D /* Build configuration list for PBXNativeTarget "CreatureTypeTests" */;
+			buildPhases = (
+				C53D99E92DCAF5F50001561D /* Sources */,
+				C53D99EA2DCAF5F50001561D /* Frameworks */,
+				C53D99EB2DCAF5F50001561D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C53D99EF2DCAF5F50001561D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C53D99F02DCAF5F50001561D /* CreatureTypeTests */,
+			);
+			name = CreatureTypeTests;
+			packageProductDependencies = (
+			);
+			productName = CreatureTypeTests;
+			productReference = C53D99ED2DCAF5F50001561D /* CreatureTypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C53D99F62DCAF5F50001561D /* CreatureTypeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53D9A082DCAF5F50001561D /* Build configuration list for PBXNativeTarget "CreatureTypeUITests" */;
+			buildPhases = (
+				C53D99F32DCAF5F50001561D /* Sources */,
+				C53D99F42DCAF5F50001561D /* Frameworks */,
+				C53D99F52DCAF5F50001561D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C53D99F92DCAF5F50001561D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C53D99FA2DCAF5F50001561D /* CreatureTypeUITests */,
+			);
+			name = CreatureTypeUITests;
+			packageProductDependencies = (
+			);
+			productName = CreatureTypeUITests;
+			productReference = C53D99F72DCAF5F50001561D /* CreatureTypeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C53D9A0E2DCAF67E0001561D /* CreatureTypeKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53D9A172DCAF67E0001561D /* Build configuration list for PBXNativeTarget "CreatureTypeKeyboard" */;
+			buildPhases = (
+				C53D9A0B2DCAF67E0001561D /* Sources */,
+				C53D9A0C2DCAF67E0001561D /* Frameworks */,
+				C53D9A0D2DCAF67E0001561D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C53D9A102DCAF67E0001561D /* CreatureTypeKeyboard */,
+			);
+			name = CreatureTypeKeyboard;
+			packageProductDependencies = (
+			);
+			productName = CreatureTypeKeyboard;
+			productReference = C53D9A0F2DCAF67E0001561D /* CreatureTypeKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C53D99CF2DCAF5F30001561D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C53D99D62DCAF5F30001561D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C53D99EC2DCAF5F50001561D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C53D99D62DCAF5F30001561D;
+					};
+					C53D99F62DCAF5F50001561D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C53D99D62DCAF5F30001561D;
+					};
+					C53D9A0E2DCAF67E0001561D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = C53D99D22DCAF5F30001561D /* Build configuration list for PBXProject "CreatureType" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C53D99CE2DCAF5F30001561D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C53D99D82DCAF5F30001561D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C53D99D62DCAF5F30001561D /* CreatureType */,
+				C53D99EC2DCAF5F50001561D /* CreatureTypeTests */,
+				C53D99F62DCAF5F50001561D /* CreatureTypeUITests */,
+				C53D9A0E2DCAF67E0001561D /* CreatureTypeKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C53D99D52DCAF5F30001561D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53D99EB2DCAF5F50001561D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53D99F52DCAF5F50001561D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53D9A0D2DCAF67E0001561D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C53D99D32DCAF5F30001561D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53D99E92DCAF5F50001561D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53D99F32DCAF5F50001561D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53D9A0B2DCAF67E0001561D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C53D99EF2DCAF5F50001561D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C53D99D62DCAF5F30001561D /* CreatureType */;
+			targetProxy = C53D99EE2DCAF5F50001561D /* PBXContainerItemProxy */;
+		};
+		C53D99F92DCAF5F50001561D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C53D99D62DCAF5F30001561D /* CreatureType */;
+			targetProxy = C53D99F82DCAF5F50001561D /* PBXContainerItemProxy */;
+		};
+		C53D9A152DCAF67E0001561D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C53D9A0E2DCAF67E0001561D /* CreatureTypeKeyboard */;
+			targetProxy = C53D9A142DCAF67E0001561D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C53D9A012DCAF5F50001561D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3PR66H97;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CreatureType/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zwardlaw.CreatureType;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C53D9A022DCAF5F50001561D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3PR66H97;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CreatureType/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zwardlaw.CreatureType;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C53D9A032DCAF5F50001561D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C53D9A042DCAF5F50001561D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C53D9A062DCAF5F50001561D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3PR66H97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zwardlaw.CreatureTypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreatureType.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CreatureType";
+			};
+			name = Debug;
+		};
+		C53D9A072DCAF5F50001561D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3PR66H97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zwardlaw.CreatureTypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreatureType.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CreatureType";
+			};
+			name = Release;
+		};
+		C53D9A092DCAF5F50001561D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3PR66H97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zwardlaw.CreatureTypeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CreatureType;
+			};
+			name = Debug;
+		};
+		C53D9A0A2DCAF5F50001561D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3PR66H97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zwardlaw.CreatureTypeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CreatureType;
+			};
+			name = Release;
+		};
+		C53D9A182DCAF67E0001561D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3PR66H97;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CreatureTypeKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CreatureTypeKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zwardlaw.CreatureType.CreatureTypeKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C53D9A192DCAF67E0001561D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T3PR66H97;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CreatureTypeKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CreatureTypeKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zwardlaw.CreatureType.CreatureTypeKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C53D99D22DCAF5F30001561D /* Build configuration list for PBXProject "CreatureType" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53D9A032DCAF5F50001561D /* Debug */,
+				C53D9A042DCAF5F50001561D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53D9A002DCAF5F50001561D /* Build configuration list for PBXNativeTarget "CreatureType" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53D9A012DCAF5F50001561D /* Debug */,
+				C53D9A022DCAF5F50001561D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53D9A052DCAF5F50001561D /* Build configuration list for PBXNativeTarget "CreatureTypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53D9A062DCAF5F50001561D /* Debug */,
+				C53D9A072DCAF5F50001561D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53D9A082DCAF5F50001561D /* Build configuration list for PBXNativeTarget "CreatureTypeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53D9A092DCAF5F50001561D /* Debug */,
+				C53D9A0A2DCAF5F50001561D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53D9A172DCAF67E0001561D /* Build configuration list for PBXNativeTarget "CreatureTypeKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53D9A182DCAF67E0001561D /* Debug */,
+				C53D9A192DCAF67E0001561D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C53D99CF2DCAF5F30001561D /* Project object */;
+}
